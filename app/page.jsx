@@ -3,11 +3,11 @@ import Movie from './components/Movie'
 
 function page() {
   return (
-    <>    <div className='page'>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
-      <a href="/courses">Courses</a>
+    <>    <div className='page' >
+      <a className='hello' href="/">Home</a>
+      <a className='hello' href="/about">About</a>
+      <a className='hello' href="/contact">Contact</a>
+      <a className='hello' href="/courses">Courses</a>
     </div>
    
     <Movie/>
